@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>bamazon_db</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeAClpwcm9kdWN0X2lk0h4f
+			LS5fEA9OU011dGFibGVTdHJpbmejLS8jWE5TU3RyaW5n0h4fMTJe
+			TlNNdXRhYmxlQXJyYXmjMTMjV05TQXJyYXnSHh8iNaIiI18QD05T
+			S2V5ZWRBcmNoaXZlctE4OVRkYXRhgAEACAARABoAIwAtADIANwBF
+			AEsAUgBaAGUAbABwAHIAdAB2AHoAfAB+AIAAggCHAIwAkQC6AMEA
+			wgDDAMUAygDVAN4A9AD4AQUBDgETARUBFwEZAR4BKAEqATUBOgFM
+			AVABWQFeAW0BcQF5AX4BgQGTAZYBmwAAAAAAAAIBAAAAAAAAADoA
+			AAAAAAAAAAAAAAAAAAGd
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1240, 610}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE DATABASE bamazon_db;
+
+USE bamazon_db;
+
+CREATE TABLE products (
+	product_id INTEGER(11) AUTO_INCREMENT NOT NULL,
+	product_name VARCHAR(30) NOT NULL,
+	product_price INT NOT NULL,
+	product_department VARCHAR(30) NOT NULL,
+	stock_quantity INTEGER(11) NOT NULL, 
+	PRIMARY KEY (product_id),
+	UNIQUE (product_name)
+);
+
+INSERT INTO products 
+    (product_name, product_department, product_price, stock_quantity) 
+VALUES 
+    ("Zinus Memory Foam", "Home", 300, 40),
+    ("Dove Conditioner", "Cosmetics", 6.25, 627),
+    ('Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    ('Nike Shorts', 'Clothing', 17.88, 250),
+    ('Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    ('Huggies Diapers', 'Children', 2.75, 476),
+    ('Granny Smith Apples', 'Produce', 0.35, 800),
+    ('5lb Dumb bell', 'Sports', 7.99, 89),
+    ('Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    ('Band Aid', 'Pharmacy', 3.25, 550);
+   
+   
+    
+    
+  </string>
+			<key>table</key>
+			<string>products</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>INSERT INTO products 
+    (product_name, product_department, product_price, stock_quantity) 
+VALUES 
+    ("Zinus Memory Foam", "Home", 300, 40),
+    ("Dove Conditioner", "Cosmetics", 6.25, 627),
+    ('Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    ('Nike Shorts', 'Clothing', 17.88, 250),
+    ('Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    ('Huggies Diapers', 'Children', 2.75, 476),
+    ('Granny Smith Apples', 'Produce', 0.35, 800),
+    ('5lb Dumb bell', 'Sports', 7.99, 89),
+    ('Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    ('Band Aid', 'Pharmacy', 3.25, 550)</string>
+		<string>USE bamazon_db;
+CREATE TABLE products (
+	product_id INTEGER(11) AUTO_INCREMENT NOT NULL,
+	product_name VARCHAR(30) NOT NULL,
+	product_price INT NOT NULL,
+	product_department VARCHAR(30) NOT NULL,
+	stock_quantity INTEGER(11) NOT NULL, 
+	PRIMARY KEY (product_id),
+	UNIQUE (product_name)
+);
+INSERT INTO products 
+    (product_id, product_name, product_department, product_price, stock_quantity) 
+VALUES 
+    (1,"Zinus Memory Foam", "Home", 300, 40),
+    (2,"Dove Conditioner", "Cosmetics", 6.25, 627),
+    (3,'Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    (4,'Nike Shorts', 'Clothing', 17.88, 250),
+    (5,'Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    (6,'Huggies Diapers', 'Children', 2.75, 476),
+    (7,'Granny Smith Apples', 'Produce', 0.35, 800),
+    (8,'5lb Dumb bell', 'Sports', 7.99, 89),
+    (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+		<string>product_id INTEGER(11) AUTO_INCREMENT NOT NULL,</string>
+		<string>item_id INTEGER(11) AUTO_INCREMENT NOT NULL,</string>
+		<string>INSERT INTO products 
+    (product_id, product_name, product_department, product_price, stock_quantity) 
+VALUES 
+    (1,"Zinus Memory Foam", "Home", 300, 40),
+    (2,"Dove Conditioner", "Cosmetics", 6.25, 627),
+    (3,'Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    (4,'Nike Shorts', 'Clothing', 17.88, 250),
+    (5,'Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    (6,'Huggies Diapers', 'Children', 2.75, 476),
+    (7,'Granny Smith Apples', 'Produce', 0.35, 800),
+    (8,'5lb Dumb bell', 'Sports', 7.99, 89),
+    (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+		<string>INSERT INTO products 
+    (product_id, product_name, product_department, product_price, product_quantity) 
+VALUES 
+    (1,"Zinus Memory Foam", "Home", 300, 40),
+    (2,"Dove Conditioner", "Cosmetics", 6.25, 627),
+    (3,'Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    (4,'Nike Shorts', 'Clothing', 17.88, 250),
+    (5,'Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    (6,'Huggies Diapers', 'Children', 2.75, 476),
+    (7,'Granny Smith Apples', 'Produce', 0.35, 800),
+    (8,'5lb Dumb bell', 'Sports', 7.99, 89),
+    (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+		<string>INSERT INTO products 
+    (product_id, product_name, product_department, product_price, product_quantity) 
+VALUES 
+    (1,"Zinus Memory Foam", "Home" 300, 40),
+    (2,"Dove Conditioner", "Cosmetics", 6.25, 627),
+    (3,'Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    (4,'Nike Shorts', 'Clothing', 17.88, 250),
+    (5,'Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    (6,'Huggies Diapers', 'Children', 2.75, 476),
+    (7,'Granny Smith Apples', 'Produce', 0.35, 800),
+    (8,'5lb Dumb bell', 'Sports', 7.99, 89),
+    (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+		<string>USE bamazon_db;
+CREATE TABLE products (
+	product_id INT NOT NULL,
+	product_name VARCHAR(30) NOT NULL,
+	product_price INT NOT NULL,
+	product_department VARCHAR(30) NOT NULL,
+	stock_quantity INTEGER(11) NOT NULL, 
+	PRIMARY KEY (product_id),
+	UNIQUE (product_name)
+);
+INSERT INTO products 
+    (product_id, product_name, product_department, product_price, product_quantity) 
+VALUES 
+    (1,"Zinus Memory Foam", "Home" 300, 40),
+    (2,"Dove Conditioner", "Cosmetics", 6.25, 627),
+    (3,'Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
+    (4,'Nike Shorts', 'Clothing', 17.88, 250),
+    (5,'Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
+    (6,'Huggies Diapers', 'Children', 2.75, 476),
+    (7,'Granny Smith Apples', 'Produce', 0.35, 800),
+    (8,'5lb Dumb bell', 'Sports', 7.99, 89),
+    (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
+    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+		<string>USE bamazon_db;
+CREATE TABLE products (
+	product_id INT NOT NULL,
+	product_name VARCHAR(30) NOT NULL,
+	product_price INT NOT NULL,
+	product_department VARCHAR(30) NOT NULL,
+	stock_quantity INTEGER(11) NOT NULL, 
+	PRIMARY KEY (product_id),
+	UNIQUE (product_name)
+);
+INSERT INTO product 
+    (product_id, product_name, product_department, product_price, product_quantity) 
+VALUES 
+    (1,"Zinus Memory Foam", "Home" 300, 40),
+    (2,"Dove Conditioner", "Cosmetics", 6.25, 627),
+    (3,'Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300)</string>
+		<string>CREATE DATABASE bamazon_db</string>
+		<string>CREATE DATABASE shopping_db</string>
+		<string>CREATE DATABASE shopping</string>
+		<string>SELECT * FROM top5000;
+select * from top_albums</string>
+		<string>CREATE TABLE top_albums (
+  position INT NOT NULL,
+  artist VARCHAR(100) NULL,
+  album VARCHAR(100) NULL,
+  year INT NULL,
+  raw_total DECIMAL(10,4) NULL,
+  raw_usa DECIMAL(10,4) NULL,
+  raw_uk DECIMAL(10,4) NULL,
+  raw_eur DECIMAL(10,4) NULL,
+  raw_row DECIMAL(10,4) NULL,
+  PRIMARY KEY (position)
+)</string>
+		<string>USE top_songsDB;
+CREATE TABLE top5000 (
+  position INT NOT NULL,
+  artist VARCHAR(100) NULL,
+  song VARCHAR(100) NULL,
+  year INT NULL,
+  raw_total DECIMAL(10,4) NULL,
+  raw_usa DECIMAL(10,4) NULL,
+  raw_uk DECIMAL(10,4) NULL,
+  raw_eur DECIMAL(10,4) NULL,
+  raw_row DECIMAL(10,4) NULL,
+  PRIMARY KEY (position)
+);
+SELECT * FROM top5000</string>
+		<string>CREATE DATABASE top_songsDB</string>
+		<string>USE greatBay_DB;
+CREATE TABLE auctions(
+  id INT NOT NULL AUTO_INCREMENT,
+  item_name VARCHAR(100) NOT NULL,
+  category VARCHAR(45) NOT NULL,
+  starting_bid INT default 0,
+  highest_bid INT default 0,
+  PRIMARY KEY (id)
+)</string>
+		<string>CREATE DATABASE greatBay_DB</string>
+		<string>SELECT * FROM songs</string>
+		<string>SELECT * FROM playlistDB</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.35</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
