@@ -96,7 +96,7 @@ function displayLowInventory() {
 			strOut = '';
 			strOut += 'Item ID: ' + data[i].product_id + '  //  ';
 			strOut += 'Product Name: ' + data[i].product_name + '  //  ';
-			strOut += 'Department: ' + data[i].department_name + '  //  ';
+			strOut += 'Department: ' + data[i].product_department + '  //  ';
 			strOut += 'Product Price: $' + data[i].product_price + '  //  ';
 			strOut += 'Quantity: ' + data[i].stock_quantity + '\n';
 
@@ -196,7 +196,7 @@ function createNewProduct() {
 		},
 		{
 			type: 'input',
-			name: 'department_name',
+			name: 'product_department',
 			message: 'Which department does the new product belong to?',
 		},
 		{
@@ -214,7 +214,7 @@ function createNewProduct() {
 	]).then(function(input) {
 
 		console.log('Adding New Item: \n    product_name = ' + input.product_name + '\n' +  
-									   '    department_name = ' + input.department_name + '\n' +  
+									   '    product_department = ' + input.product_department + '\n' +  
 									   '    product_price = ' + input.product_price + '\n' +  
 									   '    stock_quantity = ' + input.stock_quantity);
 
