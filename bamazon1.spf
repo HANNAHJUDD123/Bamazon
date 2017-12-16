@@ -96,7 +96,7 @@ VALUES
     ('Granny Smith Apples', 'Produce', 0.35, 800),
     ('5lb Dumb bell', 'Sports', 7.99, 89),
     ('Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    ('Band Aid', 'Pharmacy', 3.25, 550);
+    ('Band Aid', 'Pharmacy', 3.25, 10);
    
    
     
@@ -130,7 +130,7 @@ VALUES
     ('Granny Smith Apples', 'Produce', 0.35, 800),
     ('5lb Dumb bell', 'Sports', 7.99, 89),
     ('Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    ('Band Aid', 'Pharmacy', 3.25, 550)</string>
+    ('Band Aid', 'Pharmacy', 3.25, 10)</string>
 		<string>USE bamazon_db;
 CREATE TABLE products (
 	product_id INTEGER(11) AUTO_INCREMENT NOT NULL,
@@ -153,7 +153,7 @@ VALUES
     (7,'Granny Smith Apples', 'Produce', 0.35, 800),
     (8,'5lb Dumb bell', 'Sports', 7.99, 89),
     (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+    (10,'Band Aid', 'Pharmacy', 3.25, 10)</string>
 		<string>product_id INTEGER(11) AUTO_INCREMENT NOT NULL,</string>
 		<string>item_id INTEGER(11) AUTO_INCREMENT NOT NULL,</string>
 		<string>INSERT INTO products 
@@ -168,7 +168,7 @@ VALUES
     (7,'Granny Smith Apples', 'Produce', 0.35, 800),
     (8,'5lb Dumb bell', 'Sports', 7.99, 89),
     (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+    (10,'Band Aid', 'Pharmacy', 3.25, 10)</string>
 		<string>INSERT INTO products 
     (product_id, product_name, product_department, product_price, product_quantity) 
 VALUES 
@@ -181,7 +181,7 @@ VALUES
     (7,'Granny Smith Apples', 'Produce', 0.35, 800),
     (8,'5lb Dumb bell', 'Sports', 7.99, 89),
     (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+    (10,'Band Aid', 'Pharmacy', 3.25, 10)</string>
 		<string>INSERT INTO products 
     (product_id, product_name, product_department, product_price, product_quantity) 
 VALUES 
@@ -194,7 +194,7 @@ VALUES
     (7,'Granny Smith Apples', 'Produce', 0.35, 800),
     (8,'5lb Dumb bell', 'Sports', 7.99, 89),
     (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+    (10,'Band Aid', 'Pharmacy', 3.25, 10)</string>
 		<string>USE bamazon_db;
 CREATE TABLE products (
 	product_id INT NOT NULL,
@@ -217,7 +217,7 @@ VALUES
     (7,'Granny Smith Apples', 'Produce', 0.35, 800),
     (8,'5lb Dumb bell', 'Sports', 7.99, 89),
     (9,'Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    (10,'Band Aid', 'Pharmacy', 3.25, 550)</string>
+    (10,'Band Aid', 'Pharmacy', 3.25, 10)</string>
 		<string>USE bamazon_db;
 CREATE TABLE products (
 	product_id INT NOT NULL,

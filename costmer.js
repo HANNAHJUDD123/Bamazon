@@ -68,6 +68,7 @@ function promptUserPurchase() {
 
 						console.log('Your oder has been placed! Your total is $' + productData.price * quantity);
 						console.log('Thank you for shopping with us!');
+						// console.log('UPDATED products = ' + productData.stock_quantity - input.quantity);
 						console.log("\n---------------------------------------------------------------------\n");
 
 		

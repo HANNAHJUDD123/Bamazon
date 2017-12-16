@@ -24,6 +24,6 @@ VALUES
     ('Granny Smith Apples', 'Produce', 2.35, 800),
     ('5lb Dumb bell', 'Sports', 7.99, 89),
     ('Charmin Toiler Paper', 'Grocery', 12.99, 575),
-    ('Band Aid', 'Pharmacy', 3.25, 550);
+    ('Band Aid', 'Pharmacy', 3.25, 10);
    
    
